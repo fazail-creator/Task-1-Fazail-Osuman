@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#" class="nav-logo">Internship<span>Project</span></a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open navigation menu">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu" role="list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link nav-cta">Get Started</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Batch 2026 · DecodeLabs Internship</p>
+          <h1 id="hero-heading">Building the web.<br />Is being the God of your project.</h1>
+          <p class="hero-sub">This is the first project given to me as an intern at Decode Labs and it is very thriling to rack my mind around to come up with something</p>
+          <div class="hero-actions">
+            <a href="#skills" class="btn btn-secondary">Explore skills</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="device-mockup">
+            <div class="device-screen">
+              <div class="mock-nav"></div>
+              <div class="mock-hero"></div>
+              <div class="mock-grid">
+                <div class="mock-card"></div>
+                <div class="mock-card"></div>
+                <div class="mock-card"></div>
+                <div class="mock-card"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-heading">
+        <div class="container">
+          <p class="section-eyebrow">What this is</p>
+          <h2 id="about-heading">The interface phase</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>This is me trying to prove I can build a solid, good-looking website that works on any screen i.e phone, tablet, or desktop, not fixed dimensions. By completing this milestone I prove I can craft user-friendly experiences that work seamlessly on any device through pure responsive logic.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills" aria-labelledby="skills-heading">
+        <div class="container">
+          <p class="section-eyebrow">My toolkit</p>
+          <h2 id="skills-heading">Raw materials</h2>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3>HTML5</h3>
+              <p class="skill-role">The infrastructure</p>
+              <p>Used to structure the whole page being the skeleton</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"></path></svg>
+              </div>
+              <h3>CSS</h3>
+              <p class="skill-role">The skin</p>
+              <p> For creating responsive styling using Grid, Flexbox, and Container Queries serving as the skin for the skeleton.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+              </div>
+              <h3>JavaScript</h3>
+              <p class="skill-role">The logic</p>
+              <p>Basic state management and interactive functionality. Toggle menus and handle events.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-heading">
+        <div class="container contact-inner">
+          <p class="section-eyebrow">You are the architect</p>
+          <h2 id="contact-heading">Your code determines who has access to information.</h2>
+          <div class="contact-actions">
+            <a href="mailto:fazail.osuman@icloud.com" class="btn btn-primary">Contact Me</a>
+          </div>
+          <address class="contact-details">
+            <span>fazailosuman@outlook.com</span>
+            <span>+233 5055 44047</span>
+            <span>Greater Accra, Ghana</span>
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-logo">Projec<span>Work</span></p>
+        <p class="footer-copy">&copy; 2026 DecodeLabs Intern. All rights reserved.</p>
+        <nav aria-label="Footer navigation">
+          <ul class="footer-nav" role="list">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
